@@ -102,7 +102,7 @@ p:last-child{
 }
 .header-in {
   border-top: 5px solid var(--theme__color1);
-  padding: 35px;
+  padding: 35px 0;
 }
 .header-section__inner {
   display: flex;
@@ -168,11 +168,12 @@ p:last-child{
   color: var(--theme__color1);
   position: absolute;
   transition: 0.3s;
-  right: 25px;
-  top: 25px;
+  right: 15px;
+  top: 15px;
+  font-size:22px;
 }
 .offcanvas-close:hover {
-  color: #97A3AE;
+  color: var(--theme__color2);
 }
 .offcanvas-menu {
   position: fixed;
@@ -192,7 +193,7 @@ p:last-child{
   min-width: 200px;
   z-index: 5;
   position: relative;
-  background: #d5dce2;
+  background: #fff;
   height: 100%;
   padding: 50px 20px 40px;
   overflow: auto;
@@ -202,19 +203,16 @@ p:last-child{
 .offcanvas-menu .offmenu :-webkit-scrollbar {
   display: none;
 }
-.offcanvas-menu ul li a {
+.mobile-menu li a {
   display: block;
-  text-align: center;
   font-size: 16px;
   color: var(--theme__color1);
-  padding: 10px;
+  padding: 8px;
+  transition: 0.3s;
+  font-weight: 600;
 }
-.dropdown-menu-custom ul {
-  background: #fff;
-  padding: 20px 0;
-}
-.dropdown-menu-custom ul li a {
-  color: #97A3AE;
+.mobile-menu li a:hover {
+  color: var(--theme__color2);
 }
 .offcanvas-overlay {
   position: fixed;
@@ -324,7 +322,7 @@ p:last-child{
 }
 .h3-l-fill .f-end {
   background: url('images/fill-title.png') repeat left center/auto 100%;
-  width: 9px;
+  /* width: 9px; */
   flex-grow: 1;
 }
 .cont-mdl-x__body {
@@ -497,6 +495,7 @@ p:last-child{
 	justify-content: space-between;
 	grid-gap: var(--grid-gap);
   grid-row-gap: 26px;
+  margin-bottom: 7px;
 }
 .explore-evr__spc__grid__item {
 
@@ -505,7 +504,7 @@ p:last-child{
 
 }
 .explore-evr__spc__grid__item__image img {
-
+  width: 100%;
 }
 .explore-evr__spc__grid__item__tc {
   padding: 8px 0 0;
