@@ -27,49 +27,38 @@
     <div class="main-wrap">
       <!-- offcanvas-start -->
       <div class="offcanvas-menu">
-        <ul class="offmenu" id="menuParent">
-          <a href="#" class="offcanvas-close"><i class="fa fa-times"></i></a>
-          <li class="active"><a href="#">HOME</a></li>
-          <li><a href="#">ABOUT US</a></li>
-          <li class="dropdown">
-            <a href="#" data-bs-toggle="collapse" data-bs-target="#drop-menu1"
-              >OUR HORSES</a
-            >
-            <div
-              class="dropdown-menu-custom collapse"
-              id="drop-menu1"
-              data-bs-parent="#menuParent"
-            >
-              <ul>
-                <li><a href="#">YEARLINGS</a></li>
-                <li><a href="#">2 YEAR OLDS</a></li>
-                <li><a href="#">3 YEAR OLD PLUS</a></li>
-              </ul>
-            </div>
-          </li>
-          <li><a href="#">LATEST NEWS</a></li>
-          <li><a href="#">CONTACT & FIND US</a></li>
-        </ul>
+        <div class="offmenu" id="menuParent">
+          <a href="#" class="offcanvas-close"><i class="far fa-times"></i></a>
+          <ul class="mobile-menu">
+            <li><a class="active" href="#">HOME</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">BIODIVERSITY</a></li>
+            <li><a href="#">EVENTS</a></li>
+            <li><a href="#">CONTACT US</a></li>
+          </ul>
+        </div>
       </div>
       <div class="offcanvas-overlay"></div>
       <!-- offcanvas-start-end -->
 
       <!-- header-section -->
       <header class="header-section">
-        <div class="container">
-          <div class="header-section__inner">
-            <a href="index.html" class="header__logo">
-              <img src="images/logo-black.png" alt="" />
-            </a>
-            <div class="header__right">
-              <div class="main-menu">
-                <ul>
-                  <li><a href="#">HOME</a></li>
-                  <li><a href="#">ABOUT US</a></li>
-                  <li><a href="#">BIODIVERSITY</a></li>
-                  <li><a href="#">EVENTS</a></li>
-                  <li><a href="#">CONTACT US</a></li>
-                </ul>
+        <div class="header-in">
+          <div class="container">
+            <div class="header-section__inner">
+              <a href="index.html" class="header__logo">
+                <img src="images/logo-white.png" alt="" />
+              </a>
+              <div class="header__right">
+                <div class="main-menu">
+                  <ul>
+                    <li><a class="active" href="#">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">BIODIVERSITY</a></li>
+                    <li><a href="#">EVENTS</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                  </ul>
+                </div>
                 <a href="#" class="header-src-btn">
                   <img src="images/search-icon.png" alt="" />
                 </a>
@@ -95,13 +84,13 @@
         <!-- hero-section end -->
 
         <!-- explore-section -->
-        <section class="explore-section">
+        <section class="explore-section pb-0">
           <div class="container">
             <div class="explore-section__inner">
               <div
                 class="explore-section__title sec-title cont-blk cont-blk--center"
               >
-                <h2 class="h2">
+                <h2 class="h2 mb-0">
                   Explore <span class="color-theme1">the Holy Land</span> Today!
                 </h2>
               </div>
@@ -149,10 +138,10 @@
                 </div>
               </div>
 
-              <div class="explore__evr">
+              <div class="explore__evr pb-0">
                 <div class="explore-evr-top-line"></div>
                 <div class="explore__evr__row">
-                  <div class="explore-ever__row__left">
+                  <div class="explore__evr__row__left">
                     <div class="cont-mdl-x">
                       <div class="cont-mdl-x__title">
                         <div class="h3-l-fill">
@@ -191,7 +180,7 @@
                         </div>
                       </div>
                       <div class="cont-mdl-x__body">
-                        <div class="article-lnr___wrap">
+                        <div class="article-lnr___wrap pt-1">
                           <div class="article-lnr">
                             <div class="article-lnr__image">
                               <img src="images/article-thumb.png" alt="" />
@@ -235,66 +224,58 @@
                       </div>
                     </div>
                   </div>
-                  <div class="explore-evr__row__right">
+                  <div class="explore__evr__row__right">
                     <div class="explore-evr__tms">
-                      <div class="explore-evr__tms__evt">
-                        <div class="explore-evr__tms__evt__title">
+                      <div class="explore-evr__evt">
+                        <div class="explore-evr__evt__title">
                           <h3>Events of the week</h3>
                         </div>
-                        <div class="explore-evr__tms__evt__list">
-                          <div class="explore-evr__tms__evt__list__item">
-                            Jan 11 | National Hannoun Day
+                        <div class="explore-evr__evt__list">
+                          <div class="explore-evr__evt__list__item">
+                            Jan 11 &puncsp; | &puncsp; National Hannoun Day
                           </div>
-                          <div class="explore-evr__tms__evt__list__item">
-                            Jan 13 | Olive Tree Day
+                          <div class="explore-evr__evt__list__item">
+                            Jan 13 &puncsp; | &puncsp; Olive Tree Day
                           </div>
-                          <div class="explore-evr__tms__evt__list__item">
-                            Jan 15 | Olive Harvest Days
+                          <div class="explore-evr__evt__list__item">
+                            Jan 15 &puncsp; | &puncsp; Olive Harvest Days
                           </div>
                         </div>
                       </div>
-                      <div class="explore-evr__tms__spc">
-                        <div class="explore-evr__tms__spc__title">
+                      <div class="explore-evr__spc">
+                        <div class="explore-evr__spc__title">
                           <h3>Species of the week</h3>
                         </div>
-                        <div class="explore-evr__tms__spc__grid">
-                          <div class="explore-evr__tms__spc__grid__item">
-                            <div
-                              class="explore-evr__tms__spc__grid__item__image"
-                            >
+                        <div class="explore-evr__spc__grid">
+                          <div class="explore-evr__spc__grid__item">
+                            <div class="explore-evr__spc__grid__item__image">
                               <img src="images/insect-1.png" alt="" />
                             </div>
-                            <div class="explore-evr__tms__spc__grid__item__tc">
+                            <div class="explore-evr__spc__grid__item__tc">
                               <h4>Cicindela silvatica</h4>
                             </div>
                           </div>
-                          <div class="explore-evr__tms__spc__grid__item">
-                            <div
-                              class="explore-evr__tms__spc__grid__item__image"
-                            >
+                          <div class="explore-evr__spc__grid__item">
+                            <div class="explore-evr__spc__grid__item__image">
                               <img src="images/insect-2.png" alt="" />
                             </div>
-                            <div class="explore-evr__tms__spc__grid__item__tc">
+                            <div class="explore-evr__spc__grid__item__tc">
                               <h4>Calosoma sycophanta</h4>
                             </div>
                           </div>
-                          <div class="explore-evr__tms__spc__grid__item">
-                            <div
-                              class="explore-evr__tms__spc__grid__item__image"
-                            >
+                          <div class="explore-evr__spc__grid__item">
+                            <div class="explore-evr__spc__grid__item__image">
                               <img src="images/insect-3.png" alt="" />
                             </div>
-                            <div class="explore-evr__tms__spc__grid__item__tc">
+                            <div class="explore-evr__spc__grid__item__tc">
                               <h4>Elaphrus uliginosus</h4>
                             </div>
                           </div>
-                          <div class="explore-evr__tms__spc__grid__item">
-                            <div
-                              class="explore-evr__tms__spc__grid__item__image"
-                            >
+                          <div class="explore-evr__spc__grid__item">
+                            <div class="explore-evr__spc__grid__item__image">
                               <img src="images/insect-4.png" alt="" />
                             </div>
-                            <div class="explore-evr__tms__spc__grid__item__tc">
+                            <div class="explore-evr__spc__grid__item__tc">
                               <h4>Clivina fossor</h4>
                             </div>
                           </div>
@@ -314,7 +295,7 @@
         <section class="bii-section">
           <div class="container">
             <div class="bii-section__inner">
-              <div class="bii-brn-bx">
+              <div class="bii-bnr-bx">
                 <img
                   src="images/hyena.png"
                   alt=""

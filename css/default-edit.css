@@ -1,3 +1,14 @@
+/* ---buttons--- */
+.text-btn {
+    color: var(--theme__color2);
+    font-weight: 600;
+}
+.text-btn:hover {
+    color: var(--theme__color2);
+    text-decoration: underline !important;
+}
+/* ---buttons---end */
+
 /* small-tools */
 .underline {
     text-decoration: underline !important;
